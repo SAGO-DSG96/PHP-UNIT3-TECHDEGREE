@@ -182,7 +182,22 @@ ul li a {
 	font-size: 18px;
 }
 
-
+/* Create two unequal columns that floats next to each other */
+* box{
+	box-sizing: border-box;
+}
+.column {
+	float: left;
+	padding: 10px;
+  }
+  
+  .left {
+	width: 65%;
+  }
+  
+  .right {
+	width: 35%;
+  }
 
 /* ==========================================================================
    Form Styles
