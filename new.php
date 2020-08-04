@@ -135,7 +135,7 @@
             <div class="entry-list single">
                 <h2>Add tags</h2>
 
-                <form method="post" action="edit.php">
+                <form method="post" action="new.php">
                     <label for="new-tag">New Tag</label>
                     <input id="new-tag" type="text" name="new-tag" value=""><br>
                     <?php
